@@ -3,33 +3,7 @@
   "apiVersion": "v1",
   "metadata": {
     "name": "azure-blob-storage",
-    "namespace": "default",
-    "uid": "b3d65432-2838-4df9-9990-1c303c3bfa4f",
-    "resourceVersion": "5589",
-    "creationTimestamp": "2025-08-22T17:10:29Z",
-    "finalizers": ["kubernetes.io/pvc-protection"],
-    "managedFields": [
-      {
-        "manager": "Mozilla",
-        "operation": "Update",
-        "apiVersion": "v1",
-        "time": "2025-08-22T17:10:29Z",
-        "fieldsType": "FieldsV1",
-        "fieldsV1": {
-          "f:spec": {
-            "f:accessModes": {},
-            "f:resources": {
-              "f:requests": {
-                ".": {},
-                "f:storage": {}
-              }
-            },
-            "f:storageClassName": {},
-            "f:volumeMode": {}
-          }
-        }
-      }
-    ]
+    "namespace": "default"
   },
   "spec": {
     "accessModes": ["ReadWriteMany"],
@@ -40,8 +14,5 @@
     },
     "storageClassName": "default",
     "volumeMode": "Filesystem"
-  },
-  "status": {
-    "phase": "Pending"
   }
 }
